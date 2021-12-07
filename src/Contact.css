@@ -1,0 +1,55 @@
+.contact{
+    background-color:#172946F9;
+}
+h1.hire-text{
+    font-size: 60px;
+}
+p.hire-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    font-weight: 400;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding:  0 20px;
+    transition: all 3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin: 20px 0px;
+    outline: none;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background:none;
+    border: 2px solid hsla(218, 61%, 53%, 0.32);
+}
+input::placeholder{
+  color: #ffffff
+}
+textarea#message{
+    height: 120px;
+    background:none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 2px solid hsla(218, 61%, 53%, 0.32);
+
+}
+textarea::placeholder{
+    color:#ffffff
+
+}
+button.btn.contact{
+    margin: 20px 0px;
+}
+.contact-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}

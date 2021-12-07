@@ -1,0 +1,232 @@
+.home-bg{
+    background-image: url("../src/image/internet-vazhen-dlya-cheloveka.jpg");
+    background-color: #172946F9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+}
+.logo{
+    width: 5%;
+}
+.logo img{
+    width: 100%;
+}
+.nav-items a{
+    font-size: 20px;
+    padding-bottom: 16px;
+    color: white;
+    text-decoration: none;
+}
+.home-content{
+    padding: 142px 0px
+}
+h1.home-text{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: rgba(241, 82, 196, 0.65);
+}
+h2.home-text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight:800;
+    font-family: sans-serif;
+}
+h3.home-text{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+h4.home-text{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.header{
+    transition: 0.4s all ease;
+}
+
+.header.active{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color:#172946F9;
+}
+.toggle-menu{
+    display: none;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+.pick{
+    color: #f152c4;
+}
+ul.sidebar.d-flex{
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background:#172946F9;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+
+@media only screen and (max-width: 1940px){
+    .sideNavbar{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1024px){
+        .sideNavbar{
+            display: none !important;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .sideNavbar{
+        display: flex !important;
+    }
+    .header{
+        justify-content: space-between;
+    }
+
+    .header.active{
+        padding: 20px 30px ;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    .navigation{
+        display: none;
+    }
+    h2.home-text{
+        font-size:40px !important;
+    }
+    h3.home-text{
+        font-size:35px !important;
+
+    }
+    h4.home-text{
+        font-size:35px !important;
+
+    }
+    svg.bi.bi-justify.white.pointer{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:430px){
+
+    .sideNavbar{
+        display: flex !important;
+    }
+    .header.active{
+        padding: 20px ;
+    }
+        .logo{
+            width: 10%;
+        }
+    .toggle-menu{
+        display: flex;
+    }
+    .navigation{
+        display: none;
+    }
+    h2.home-text{
+        font-size:30px !important; ;
+    }
+    h3.home-text{
+        font-size:30px !important;
+
+    }
+    h4.home-text{
+        font-size:30px !important;
+
+    }
+    svg.bi.bi-justify.white.pointer{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:380px){
+
+    .sideNavbar{
+        display: flex !important;
+    }
+    .header.active{
+        padding: 20px ;
+    }
+    .logo{
+        width: 10%;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    .navigation{
+        display: none;
+    }
+    h2.home-text{
+        font-size:30px !important; ;
+    }
+    h3.home-text{
+        font-size:30px !important;
+
+    }
+    h4.home-text{
+        font-size:30px !important;
+
+    }
+    svg.bi.bi-justify.white.pointer{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:330px){
+
+    .sideNavbar{
+        display: flex !important;
+    }
+    .header.active{
+        padding: 20px ;
+    }
+    .logo{
+        width: 10%;
+    }
+    .toggle-menu{
+        display: flex;
+    }
+    .navigation{
+        display: none;
+    }
+    h2.home-text{
+        font-size:25px !important; ;
+    }
+    h3.home-text{
+        font-size:25px !important;
+
+    }
+    h4.home-text{
+        font-size:25px !important;
+
+    }
+    svg.bi.bi-justify.white.pointer{
+        width: 30px;
+        height: 30px;
+    }
+}
+

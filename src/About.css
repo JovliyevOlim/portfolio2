@@ -1,0 +1,149 @@
+.about{
+    background-color: #172946F9;
+}
+img.about-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.about-heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+button.about-btn{
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: 0.4s ease;
+    background-color: #f152c4;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+}
+.about-button{
+    padding: 20px 0px;
+}
+a.bottom-to-top{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    background-color: #f152c4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all ease;
+    z-index: 1000;
+}
+a.bottom-to-top.active{
+    display: flex;
+}
+.coll-6{
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+@media only screen and (max-width: 1024px) {
+    .p-color{
+        font-size:15px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .coll-6 {
+        padding:0px 40px !important;
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 430px){
+
+    button.about-btn{
+        text-transform: capitalize;
+        width: 140px;
+        height: 50px;
+        font-size: 13px;
+        transition: 0.4s ease;
+    }
+
+    img.about-img{
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    h1.about-heading{
+        padding:  0px 20px;
+        text-align: start;
+    }
+    .coll-6{
+        padding:0  15px !important;
+    }
+    .about-meta{
+        padding: 0px 15px 0px 20px;
+    }
+    .p-color{
+        line-height: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    button.about-btn{
+        text-transform: capitalize;
+        width: 120px;
+        height: 50px;
+        font-size: 13px;
+        transition: 0.4s ease;
+    }
+
+
+    h1.about-heading{
+        padding:  0px 20px;
+        text-align: start;
+    }
+    .coll-6{
+        padding:0  15px !important;
+    }
+    .about-meta{
+        padding: 0px 15px 0px 20px;
+    }
+    .p-color{
+        line-height: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 330px){
+
+    button.about-btn{
+        text-transform: capitalize;
+        width: 100px;
+        height: 50px;
+        font-size: 13px;
+        transition: 0.4s ease;
+        margin: 10px;
+    }
+
+
+    h1.about-heading{
+        padding:  0px 20px;
+        text-align: start;
+        font-size: 50px;
+    }
+    .coll-6{
+        padding:0  15px !important;
+    }
+    .about-meta{
+        padding: 0px 15px 0px 20px;
+    }
+    .p-color{
+        line-height: 20px !important;
+    }
+}
